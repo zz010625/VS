@@ -1,0 +1,45 @@
+            body {
+                padding: 20px;
+            }
+            
+            .task3 {
+                padding: 20px;
+                background-color: #eee;
+                border-style: outset;
+                border-color: #999;
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+            
+            .task3 .left {
+                border-style: outset;
+                border-color: #999;
+                background-color: white;
+                width: 160px;
+                padding: 20px;
+                margin-right: 20px;
+                flex-shrink: 0;
+            }
+            
+            .task3 .center {
+                border-style: outset;
+                border-color: #999;
+                background-color: white;
+                padding: 20px;
+                margin-right: 20px;
+            }
+            
+            .task3 .right {
+                border-style: outset;
+                border-color: #999;
+                background-color: white;
+                width: 120px;
+                text-align: center;
+                flex-shrink: 0;
+                padding-top: 20px;
+            }
+            
+            .task3 .right .image {
+                margin-bottom: 20px;
+            }

@@ -1,0 +1,89 @@
+body {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+h2 {
+    margin-left: 1%;
+}
+
+p {
+    text-indent: 2em;
+}
+
+img {
+    margin-left: 1%;
+}
+
+table {
+    width: 100%;
+}
+
+.main {
+    padding: 25px;
+    background-color: #F5F5F5;
+}
+
+.nav {
+    background-color: #2F4F4F;
+}
+
+.nav #nav-url {
+    float: right;
+}
+
+.nav #nav-url li {
+    float: left;
+    color: black;
+    padding-right: 10px;
+}
+
+.nav #nav-url li a {
+    color: white;
+    padding-right: 10px;
+}
+
+.article {
+    padding: 16px;
+    background-color: white;
+    margin-top: 50px;
+    border-style: outset;
+}
+
+.images {
+    background-color: white;
+    margin-top: 50px;
+    border-style: outset;
+}
+
+.images .image {
+    width: 120px;
+    height: 120px;
+    border-color: gray;
+    border-width: 1px;
+    text-align: center;
+    border-style: solid;
+    margin-top: 25px;
+}
+
+.register {
+    background-color: white;
+    margin-top: 50px;
+    border-style: outset;
+    text-align: center;
+}
+
+.register .register-message {
+    text-align: left;
+    margin-left: 40%;
+}
+
+#submit-register-message {
+    width: 95%;
+    background-color: rgb(44, 125, 247);
+    color: white;
+    margin-bottom: 25px;
+}

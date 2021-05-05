@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 200px;
+    width: 400px;
+    background-color: #ccc;
+    position: relative;
+    /* calc()用于计算 注意:减号前后必须加空格 否则无效 */
+    top: calc(50% - 100px);
+    left: calc(50% - 200px);
+}
+
+.main .circle {
+    height: 50px;
+    width: 50px;
+    background-color: #fc0;
+}
+
+#left-top {
+    border-bottom-right-radius: 50px;
+}
+
+#right-bottom {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-top-left-radius: 50px;
+}
